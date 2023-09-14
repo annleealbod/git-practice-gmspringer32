@@ -1,0 +1,82 @@
+  368  git --version
+  369  git config --global use.name "Garrett Springer"
+  370  git config --global user.email "gmspringer32@gmail.com"
+  371  git config --global core.editor "code --wait"
+  372  git config --global init.defaultBrach main
+  376  git config --list
+  377  git config --global --edit
+  378  git config --list
+  379  git config --global --edit
+  380  git config --list
+  381  git config --edit
+  382  git config --global --edit
+  398  mkdir git_practice
+  399  cd git_practice
+  400  git init
+  402  git status
+  403  git config --global init.defaultBranch main
+  404  rm .git/
+  405  rm -r .git/
+  409  git init
+  415  git status
+  416  git add *
+  418  git statis
+  419  git status
+  420  git commit
+  421  git commit -m "create file_1.txt"
+  422  git status
+  424  git config
+  425  git config --list
+  426  git config --global --edit
+  449  cd git_practice/
+  450  git status
+  451  git merge --abort
+  452  git checkout 'features'
+  453  git log --online
+  454  git log --oneline
+  455  git checkout 'main'
+  456  git merge 71287c7
+  457  git merge --abort
+  458  git config --global merge.tool vscode
+  459  git config --global mergetool.vscode.cmd 'code --wait --merge $REMOTE $LOCAL $BASE $MERGED'
+  460  git config --global diff.tool vscode
+  461  git config --global difftool.vscode.cmd 'code --wait --diff $LOCAL $REMOTE'
+  462  git checkout 'features'
+  463  git log --oneline
+  464  git checkout 'main'
+  465  git merge 71287c7
+  466  git merge --abort
+  475  cd git_practice/
+  478  notepad .gitconfig
+  479  git config --global -e
+  480  git checkout 'features'
+  481  git log --oneline
+  482  git checkout 'main'
+  483  git merge 71287c7
+  484  git config --global merge.tool vscode
+  485  git config --global mergetool.vscode.cmd "code --wait $MERGED"
+  486  git stats
+  487  git status
+  488  git commit -m 'merge features branch'
+  489  git branch -d 'features'
+  490  git remote add origin git@github.com:gmspringer32/git-practice-gmspringer32.git
+  491  git remote
+  492  git push -u origin main
+  521  git clone git@github.com:gmspringer32/git-practice-hermite2010.git
+  523  cd git-practice-hermite2010/
+  529  git status
+  530  git status
+  531  git branch "feature-<garrett-springer>"
+  532  git branch feature-<garrett-springer>
+  533  git branch feature-garrett-springer
+  534  git checkout feature-garrett-springer
+  536  git status
+  537  git add *
+  538  git commit -m "surprise :)"
+  539  git push origin feature-garrett-springer
+  541  cd git-practice
+  543  cd git_practice/
+  544  git pull
+  547  git log --online > gitlog.txt
+  548  git log --oneline > gitlog.txt
+  549  history | grep git > history.txt

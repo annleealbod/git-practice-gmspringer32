@@ -1,0 +1,14 @@
+2fcb7a4 Merge pull request #1 from hermite2010/feature-hermite2010
+4508b00 add to file_1
+ba7fddb merge features branch
+71287c7 modify new_features
+a7f3d42 replace old text with new
+7a6f8f9 Merge commit 'fd9919a'
+1c27c0f modify file_1.txt
+7572abd update .gitignore
+3520122 add .gitignore
+fd9919a change new_features.txt
+efcd0d0 add empty file
+f9c25ef Add Readme.md
+f91625c Added text 1 and 2 and edited them
+979f062 create file_1.txt
